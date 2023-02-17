@@ -1,0 +1,11 @@
+{
+  "name": "dance",
+  "version": "1.0.0",
+  "description": "heyy welcomes in the dance academy",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "naveen",
+  "license": "ISC"
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/style01.css">
+</head>
+<body>
+    <nav id="navigation">
+        <ul>
+            img(src='../static/dance01.jpg', alt='logo',id="dance") 
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About us</a></li>
+            <li><a href="/contact">Contact us</a></li>
+            <li><a href="/">Join us</a></li>
+            <li><a href="/">Services</a></li>
+        </ul>
+    <div id="actual">
+       
+    <h1>Contact Us</h1>
+    <form action="/contact" method="post" id="form">
+        <input type="text" name="name" placeholder="enter your name">
+        <input type="text" name="age" placeholder="enter your age">
+        <input type="text" name="gender" placeholder="enter your gender">
+        <input type="email" name="email" placeholder="enter your email-id">
+        <input type="text" name="phonenumber" placeholder="enter your phone number">
+        <textarea type="text" name="address" cols="30" rows="10" placeholder="enter your address">
+        </textarea>
+        <textarea type="text" name="address" cols="30" rows="10" placeholder="Tell Something about yourself">
+        </textarea>
+        <div id="btn">
+            <button class="button" type="submit" onclick="return confirm('do you really want to save your data to db?')" >Submit</button>
+            <button class="button" type="reset" onclick="return confirm('do you really want to reset your data ?')">reset</button>
+        </div>
+    </form>
+    </div>
+    <footer id="footer">
+       <p>@Copyright 2020-2025.</p>
+       <p> All rights reserved. Powered by Danceweb.com</p>
+    </footer>
+
+    
+</body>
+</html>
+    

@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#dance{
+    height:70px;
+    width:70px;
+    padding: 10px 10px;
+    filter: invert();
+    opacity: 0.8;
+}
+ul{
+    display:flex;
+    background-color:rgba(43, 50, 19, 0.287);
+}
+
+li{
+    list-style: none;
+    margin-top:35px;
+    padding-left: 60px;
+    
+}
+ li a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 20px;
+ }
+
+ li a:hover{
+color:wheat;
+ }
+
+ h1{
+    text-align: center;
+    margin: 6px;
+ }
+
+#form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+input{
+    width:50%;
+    margin:10px;
+    padding: 6px;
+}
+textarea{ width:50%;
+    margin:10px;
+    padding: 6px;
+
+}
+#btn{
+    display:flex;
+}
+.button{
+    padding:5px;
+    margin:8px;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+#footer{
+    position: relative;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 4px;
+}
